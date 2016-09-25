@@ -9,6 +9,10 @@ body{
     color: black;
 }
 
+.nav a:hover{
+    color: skyblue;
+}
+
 .track{
     display: inline-block;
     padding: 1em;
