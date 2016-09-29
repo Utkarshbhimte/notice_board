@@ -13,6 +13,26 @@
     <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport" />
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Friendly Chat">
+    <meta name="theme-color" content="#272727">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Friendly Chat">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#272727">
+
+    <!-- Tile icon for Win8 -->
+    <meta name="msapplication-TileColor" content="#272727">
+    <meta name="msapplication-navbutton-color" content="#000">
+
+
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="css/normalize.css" rel="stylesheet">
@@ -33,11 +53,11 @@
                     <a href="#">DevmashWEB</a>
                 </h5>
             </div>
-            <div class="nav_bar">
+            <div class="nav-bar">
                 <ul>
                     <li>
                         <h5><a href="#">Notices</a></h5>
-                    </li> 
+                    </li>
                     <li>
                         <h5><a href="#">Resources</a></h5>
                     </li>
@@ -66,10 +86,24 @@
                 </li>
             </ul>
         </div>
-    
+
     </div>
     <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCslsAIaD6N6Mdxjbn0UaLVrZxsk2qwjp8",
+    authDomain: "devmashweb-wall.firebaseapp.com",
+    databaseURL: "https://devmashweb-wall.firebaseio.com",
+    storageBucket: "devmashweb-wall.appspot.com",
+    messagingSenderId: "14317655445"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src="js/script.js" charset="utf-8"></script>
 </body>
 
 </html>

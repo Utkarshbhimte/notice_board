@@ -1,0 +1,7 @@
+{
+  "name": "DevmashWEB",
+  "short_name": "DevmashWEB",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
