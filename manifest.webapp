@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "DevmashWEB",
-  "launch_path": "/index.html",
+  "launch_path": "index.html",
   "description": "Get Notified about DevmashWEB",
   "developer": {
     "name": "DevmashWEB-Elite Team",
