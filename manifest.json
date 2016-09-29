@@ -1,7 +1,20 @@
 {
-  "name": "DevmashWEB",
-  "short_name": "DevmashWEB",
-  "start_url": "/index.html",
-  "display": "standalone",
-  "orientation": "portrait"
+    "name": "DevmashWEB",
+    "short_name": "DevmashWEB",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [{
+        "src": "images/favicon.png",
+        "sizes": "96x96",
+        "type": "image/png"
+    }, {
+        "src": "images/favicon.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    },      {
+            "src": "images/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }]
 }
